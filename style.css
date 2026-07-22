@@ -384,3 +384,14 @@ body{
 
 ::-webkit-scrollbar{ height:8px; width:8px; }
 ::-webkit-scrollbar-thumb{ background: var(--card-border); border-radius:4px; }
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .weather-temp, h1 {
+    font-size: 2rem !important;
+  }
+  .card, .forecast-item {
+    padding: 10px !important;
+  }
+}
