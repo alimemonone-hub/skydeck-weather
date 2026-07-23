@@ -19,7 +19,7 @@
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
 }
-
+b
 body[data-theme="dark"]{
   --bg: #0B1220;
   --bg-elevated: #0F1A2C;
